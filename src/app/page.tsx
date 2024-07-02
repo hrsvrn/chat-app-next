@@ -1,13 +1,10 @@
-import { Button } from "@/components/ui/button"
+import React from 'react'
+import { db } from '@/lib/db'
 
-
-const page = () => {
+const page = async() => {
   return (
-    <div>
-    <Button>Button</Button>
-    </div>
+    <div>page</div>
   )
 }
 
 export default page
-
