@@ -1,10 +1,11 @@
 import React from 'react'
-import { db } from '@/lib/db'
+import { buttonVariants } from "@/components/ui/button"
+import { Button } from "@/components/ui/button"
 
-const page = async() => {
-  return (
-    <div>page</div>
-  )
+
+const Page = () => {
+  
+  return <Button variant='destructive'>Button</Button>
 }
 
-export default page
+export default Page
